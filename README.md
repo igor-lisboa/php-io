@@ -27,3 +27,10 @@
 * Como ler dados do teclado ao utilizar o stream STDIN
 * Como escrever na tela como se o console fosse um arquivo, utilizando o STDOUT e STDERR
 * Como copiar dados diretamente de um stream para outro, com stream_copy_to_stream, poupando memória
+
+# Aula 5
+* Que é possível adicionar informações à leitura (ou escrita) de streams através de contextos
+* Que a função responsável para criar contextos é a stream_context_create
+* Que cada wrapper de stream possui suas possíveis opções de contexto
+    * Em http://, vimos como definir o método, cabeçalhos e conteúdo da requisição
+    * Em zip://, nós aprendemos a definir a senha para abrir o arquivo
