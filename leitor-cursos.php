@@ -1,10 +1,4 @@
 <?php
-
-$arquivo = fopen('lista-cursos.txt', 'r');
-
-$tamanhoDoArquivo = filesize('lista-cursos.txt');
-$cursos = fread($arquivo, $tamanhoDoArquivo);
+$cursos = file_get_contents('lista-cursos.txt');
 
 echo $cursos;
-
-fclose($arquivo);
