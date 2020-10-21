@@ -34,3 +34,10 @@
 * Que cada wrapper de stream possui suas possíveis opções de contexto
     * Em http://, vimos como definir o método, cabeçalhos e conteúdo da requisição
     * Em zip://, nós aprendemos a definir a senha para abrir o arquivo
+
+# Aula 6
+* Como trabalhar com arquivos no formato CSV, utilizando as funções fputcsv e fgetcsv
+* Como ter acesso aos dados de diretórios, através da função dir, que nos retorna uma instância de Directory
+* Como tratar streams como objetos, através da classe SplFileObject
+    * SPL significa Standard PHP Library, que é uma coleção de classes interfaces criadas com o propósito de resolver problemas comuns
+    * [Você pode conferir mais detalhes sobre a SPL aqui](https://www.php.net/manual/en/book.spl.php)
