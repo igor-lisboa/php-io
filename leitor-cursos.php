@@ -1,4 +1,4 @@
 <?php
-$cursos = file_get_contents('lista-cursos.txt');
+$cursos = file('lista-cursos.txt');
 
-echo $cursos;
+var_dump($cursos);
