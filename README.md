@@ -22,3 +22,8 @@
 * Como utilizar filtros com a função stream_filter_append
 * Como criar filtros próprios, estendendo a classe php_user_filter
 > php -a
+
+# Aula 4
+* Como ler dados do teclado ao utilizar o stream STDIN
+* Como escrever na tela como se o console fosse um arquivo, utilizando o STDOUT e STDERR
+* Como copiar dados diretamente de um stream para outro, com stream_copy_to_stream, poupando memória
